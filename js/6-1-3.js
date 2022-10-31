@@ -12,7 +12,6 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
       { src: 'images/rule1_sp.jpg'}
     ];
   }
-
 var windowwidth2 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth2 > 768){
     var responsiveImage2 = [//PC用の画像
@@ -27,7 +26,6 @@ var windowwidth2 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule2.jpg'}
     ];
   }
-
 var windowwidth3 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth3 > 768){
     var responsiveImage3 = [//PC用の画像
@@ -42,7 +40,6 @@ var windowwidth3 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule3.jpg'}
     ];
   }
-
 var windowwidth4 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth4 > 768){
     var responsiveImage4 = [//PC用の画像
@@ -57,7 +54,6 @@ var windowwidth4 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule4.jpg'}
     ];
   }
-
 var windowwidth5 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth5 > 768){
     var responsiveImage5 = [//PC用の画像
@@ -72,7 +68,6 @@ var windowwidth5 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule5.jpg'}
     ];
   }
-
   var windowwidth6 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth6 > 768){
     var responsiveImage6 = [//PC用の画像
@@ -87,7 +82,6 @@ var windowwidth5 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule6.jpg'}
     ];
   }
-
 var windowwidth7 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth7 > 768){
     var responsiveImage7 = [//PC用の画像
@@ -102,7 +96,6 @@ var windowwidth7 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule7.jpg'}
     ];
   }
-
 var windowwidth8 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth8 > 768){
     var responsiveImage8 = [//PC用の画像
@@ -117,7 +110,6 @@ var windowwidth8 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule8.jpg'}
     ];
   }
-
 var windowwidth9 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth9 > 768){
     var responsiveImage9 = [//PC用の画像
@@ -132,8 +124,6 @@ var windowwidth9 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule9.jpg'}
     ];
   }
-
-
 var windowwidth0 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth0 > 768){
     var responsiveImage0 = [//PC用の画像
@@ -146,8 +136,6 @@ var windowwidth0 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/tetsuo2.png'}
     ];
   }
-
-
 $('#slider').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -158,7 +146,6 @@ $('#slider').vegas({
   slides: responsiveImage,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider2').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -169,7 +156,6 @@ $('#slider2').vegas({
   slides: responsiveImage2,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider3').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -180,7 +166,6 @@ $('#slider3').vegas({
   slides: responsiveImage3,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider4').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -191,7 +176,6 @@ $('#slider4').vegas({
   slides: responsiveImage4,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider5').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -202,7 +186,6 @@ $('#slider5').vegas({
   slides: responsiveImage5,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider6').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -213,7 +196,6 @@ $('#slider6').vegas({
   slides: responsiveImage6,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider7').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -224,7 +206,6 @@ $('#slider7').vegas({
   slides: responsiveImage7,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider8').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -235,7 +216,6 @@ $('#slider8').vegas({
   slides: responsiveImage8,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider9').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
@@ -246,7 +226,6 @@ $('#slider9').vegas({
   slides: responsiveImage9,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
-
 $('#slider0').vegas({
   overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
   transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
