@@ -35,9 +35,9 @@ var windowwidth3 = window.innerWidth || document.documentElement.clientWidth || 
     ];
   } else {
     var responsiveImage3 = [//タブレットサイズ（768px）以下用の画像
-      { src: 'images/rule3.jpg'},
-      { src: 'images/rule3.jpg'},
-      { src: 'images/rule3.jpg'}
+      { src: 'images/rule3_sp.jpg'},
+      { src: 'images/rule3_sp.jpg'},
+      { src: 'images/rule3_sp.jpg'}
     ];
   }
 var windowwidth4 = window.innerWidth || document.documentElement.clientWidth || 0;
@@ -133,9 +133,9 @@ var windowwidth10 = window.innerWidth || document.documentElement.clientWidth ||
     ];
   } else {
     var responsiveImage10 = [//タブレットサイズ（768px）以下用の画像
-    { src: 'images/map.png'},
-      { src: 'images/map.png'},
-      { src: 'images/map.png'}
+    { src: 'images/map_sp.png'},
+      { src: 'images/map_sp.png'},
+      { src: 'images/map_sp.png'}
     ];
   }
 var windowwidth0 = window.innerWidth || document.documentElement.clientWidth || 0;
