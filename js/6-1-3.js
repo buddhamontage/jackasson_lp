@@ -124,14 +124,32 @@ var windowwidth9 = window.innerWidth || document.documentElement.clientWidth || 
       { src: 'images/rule9.jpg'}
     ];
   }
+var windowwidth10 = window.innerWidth || document.documentElement.clientWidth || 0;
+  if (windowwidth10 > 768){
+    var responsiveImage10 = [//PC用の画像
+      { src: 'images/map.png'},
+      { src: 'images/map.png'},
+      { src: 'images/map.png'}
+    ];
+  } else {
+    var responsiveImage10 = [//タブレットサイズ（768px）以下用の画像
+    { src: 'images/map.png'},
+      { src: 'images/map.png'},
+      { src: 'images/map.png'}
+    ];
+  }
 var windowwidth0 = window.innerWidth || document.documentElement.clientWidth || 0;
   if (windowwidth0 > 768){
     var responsiveImage0 = [//PC用の画像
+      { src: 'images/tetsuo.jpg'},
+      { src: 'images/tetsuo2.png'},
       { src: 'images/tetsuo.jpg'},
       { src: 'images/tetsuo2.png'}
     ];
   } else {
     var responsiveImage0 = [//タブレットサイズ（768px）以下用の画像
+      { src: 'images/tetsuo.jpg'},
+      { src: 'images/tetsuo2.png'},
       { src: 'images/tetsuo.jpg'},
       { src: 'images/tetsuo2.png'}
     ];
@@ -224,6 +242,16 @@ $('#slider9').vegas({
   animationDuration: 20000,//スライドアニメーション時間をミリ秒単位で設定
   animation: 'kenburns',//スライドアニメーションの種類。http://vegas.jaysalvat.com/documentation/transitions/参照。kenburns、kenburnsUp、kenburnsDown、kenburnsRight、kenburnsLeft、kenburnsUpLeft、kenburnsUpRight、kenburnsDownLeft、kenburnsDownRight、randomが設定可能。
   slides: responsiveImage9,//画像設定を読む
+  timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
+});
+$('#slider10').vegas({
+  overlay: true,//画像の上に網線やドットのオーバーレイパターン画像を指定。
+  transition: 'blur',//切り替わりのアニメーション。http://vegas.jaysalvat.com/documentation/transitions/参照。fade、fade2、slideLeft、slideLeft2、slideRight、slideRight2、slideUp、slideUp2、slideDown、slideDown2、zoomIn、zoomIn2、zoomOut、zoomOut2、swirlLeft、swirlLeft2、swirlRight、swirlRight2、burnburn2、blurblur2、flash、flash2が設定可能。
+  transitionDuration: 2000,//切り替わりのアニメーション時間をミリ秒単位で設定
+  delay: 10000,//スライド間の遅延をミリ秒単位で。
+  animationDuration: 20000,//スライドアニメーション時間をミリ秒単位で設定
+  animation: 'kenburns',//スライドアニメーションの種類。http://vegas.jaysalvat.com/documentation/transitions/参照。kenburns、kenburnsUp、kenburnsDown、kenburnsRight、kenburnsLeft、kenburnsUpLeft、kenburnsUpRight、kenburnsDownLeft、kenburnsDownRight、randomが設定可能。
+  slides: responsiveImage10,//画像設定を読む
   timer:false,// プログレスバーを非表示したい場合はこのコメントアウトを外してください
 });
 $('#slider0').vegas({
